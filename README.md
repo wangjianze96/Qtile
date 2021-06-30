@@ -7,7 +7,7 @@ nitrogen # setup background image
 xcompmgr # X server composite manager
 ```
 
-To enable the icons that I used in the configurations, [Nerd Font](https://www.nerdfonts.com/) is needed. Installation of [Nerd Font](https://www.nerdfonts.com/) can be found in the website.
+To enable the icons that I used in the configurations, [Nerd Font](https://www.nerdfonts.com/) is needed and set one of the nerd fonts as the default font in the configuration. Installation of [Nerd Font](https://www.nerdfonts.com/) can be found in the website.
 
 *Note*: if your are currently in China, the speed for accessing the nerd font website maybe slow.
 
