@@ -1,5 +1,7 @@
 # My Qtile Configurations
-----------
+
+Details about Qtile refer to [Qtile main page](http://www.qtile.org/) and [Arch Wiki](https://wiki.archlinux.org/title/Qtile).
+
 ## Requirements
 First install:
 ```
