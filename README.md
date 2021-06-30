@@ -1,5 +1,4 @@
-# Qtile
-My Qtile Configurations
+# My Qtile Configurations
 ----------
 ## Requirements
 First install:
