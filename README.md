@@ -21,7 +21,7 @@ Copy ```config.py``` and ```autostart.sh``` to your ```~/.config/qtile/``` folde
 I refer some widget configurations from [Derek Taylor](https://gitlab.com/dwt1/dotfiles/-/blob/master/.config/qtile/config.py).
 
 *css code test*
-<i class="nf-linux-archlinux"></i>
+<i class="nf nf-linux-archlinux"></i>
 
 ## Fianl effect
 
