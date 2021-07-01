@@ -206,8 +206,7 @@ def init_widgets_list():
                        fontsize = 35
                        ),
               widget.Net(
-                       # interface = "enp0s31f6",
-                       # interface = "eno1",
+                       # interface = "", can be left as empty, or set to your own.
                        format = '{down} {up}',
                        background = colors[4],
                        foreground = colors[2],
