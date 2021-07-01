@@ -5,8 +5,8 @@ Details about Qtile refer to [Qtile main page](http://www.qtile.org/) and [Arch 
 ## Requirements
 First install:
 ```
-nitrogen # setup background image
-xcompmgr # X server composite manager
+sudo pacman -S nitrogen # setup background image
+sudo pacman -S xcompmgr # X server composite manager
 ```
 
 *Note*: for memory widget and net widget, please install ```psutil``` first.
