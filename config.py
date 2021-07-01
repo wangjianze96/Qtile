@@ -144,11 +144,6 @@ def init_widgets_list():
                        foreground = colors[2],
                        background = colors[0]
                        ),
-              #widget.Image(
-              #         filename = "~/Pictures/python-white.png",
-              #         scale = "False",
-              #         mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm)}
-              #         ),
              widget.TextBox(
                        text = '',
                        foreground = '#ffffff',
@@ -157,12 +152,6 @@ def init_widgets_list():
                        fontsize = 40,
 		       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(terminal)}
                        ),
-             #widget.Sep(
-             #          linewidth = 0,
-             #          padding = 6,
-             #          foreground = colors[2],
-             #          background = colors[0]
-             #          ),
               widget.GroupBox(
 		       foreground = colors[2],
                        background = colors[0]
@@ -173,12 +162,6 @@ def init_widgets_list():
               widget.WindowName(
                         background = colors[0]
                         ),
-              #widget.Chord(
-              #         chords_colors={
-              #          'launch': ("#ff0000", "#ffffff"),
-              #         },
-              #         name_transform=lambda name: name.upper(),
-              #         ),
               widget.Systray(
                        background = colors[0],
                        padding = 5
@@ -188,10 +171,51 @@ def init_widgets_list():
                        padding = 3,
                        foreground = colors[0],
                        background = colors[0]
+                       ),widget.TextBox(
+                       text = '',
+                       background = colors[0],
+                       foreground = colors[5],
+                       padding = 0,
+                       fontsize = 40
+                       ),
+	      widget.TextBox(
+                       text = '',
+                       background = colors[5],
+                       foreground = colors[2],
+                       padding = 0,
+                       fontsize = 35
+                       ),
+	      widget.Memory(
+                       foreground = colors[2],
+                       background = colors[5],
+                       # format = '{ .0f}{mm}/{ .0f}{mm}',
+		       padding = 6
+                       ),
+	      widget.TextBox(
+                       text = '',
+                       background = colors[5],
+                       foreground = colors[4],
+                       padding = 0,
+                       fontsize = 40
+                       ),
+              widget.TextBox(
+		       text = '',
+                       background = colors[4],
+                       foreground = colors[2],
+                       padding = 0,
+                       fontsize = 35
+                       ),
+              widget.Net(
+                       # interface = "enp0s31f6",
+                       # interface = "eno1",
+                       format = '{down} {up}',
+                       background = colors[4],
+                       foreground = colors[2],
+                       padding = 6
                        ),
               widget.TextBox(
                        text = '',
-                       background = colors[0],
+                       background = colors[4],
                        foreground = colors[5],
                        padding = 0,
                        fontsize = 40
