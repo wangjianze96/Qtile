@@ -27,4 +27,4 @@ I refer some widget configurations from [Derek Taylor](https://gitlab.com/dwt1/d
 
 ## Fianl effect
 
-![my-qtile](./img/qtile2.png)
+![my-qtile](./img/1.png)
