@@ -9,6 +9,11 @@ nitrogen # setup background image
 xcompmgr # X server composite manager
 ```
 
+*Note*: for memory widget and net widget, please install ```psutil``` first.
+```
+pip install psutil
+```
+
 To enable the icons that I used in the configurations, [Nerd Font](https://www.nerdfonts.com/) is needed and set one of the nerd fonts as the default font in the configuration. Installation of [Nerd Font](https://www.nerdfonts.com/) can be found in the website. My font setting is "JetBrainsMono Nerd Font Mono Medium"
 
 ## Opacity
