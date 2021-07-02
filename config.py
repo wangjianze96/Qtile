@@ -84,6 +84,9 @@ keys = [
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "c", lazy.spawncmd(),
         desc="Spawn a command using a prompt widget"),
+    Key([], "XF86AudioRaiseVolume", lazy.spawn("amixer set Master 5%+"), desc="Raise Volume"),
+    Key([], "XF86AudioLowerVolume", lazy.spawn("amixer set Master 5%-"), desc="Lower Volume"),
+    Key([], "XF86AudioMute", lazy.spawn("amixer set Master toggle"), desc="Mute/Unmute Volume"),
 ]
 
 groups = [Group(i) for i in "1234"]
