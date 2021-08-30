@@ -32,6 +32,6 @@ Copy ```config.py``` and ```autostart.sh``` to your ```~/.config/qtile/``` folde
 ## Reference
 I refer some widget configurations from [Derek Taylor](https://gitlab.com/dwt1/dotfiles/-/blob/master/.config/qtile/config.py).
 
-## Fianl effect
+## Final effect
 
 ![my-qtile](./img/1.png)
